@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Twitter</title>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>twitterfruit</h1>
+  </div>
+  <div class="row">
+    <div class="side">
+      <div class="container">
+        <div class="avatar" style="height:200px;">
+          <img src="avatar.jpeg" alt="">
+        </div>
+        <div>
+          <h2>@coconut</h2>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div>
+          <textarea id="box-post" class="twitter-post" type="text"
+            placeholder="O que está acontecendo agora?"></textarea>
+        </div>
+        <div class="count">
+          <span class="tweet-count" id="count-post">140</span>
+        </div>
+        <div id="btn-post">
+          <button type="submit" disabled id="send" class="twitter-btn">Twittar</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div>
+          <ul class="twitter-comments" id="list-post"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
