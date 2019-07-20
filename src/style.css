@@ -6,7 +6,6 @@ ul {
     list-style-type:none
 }
 
-
 * {
     box-sizing: border-box;
 }
@@ -28,27 +27,21 @@ body {
 .row {  
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .side { 
     flex: 25%;
-    /* background-color: black; */
     padding: 20px;
 }
 
 .main {
     flex: 75%;
-    /* background-color: white; */
     padding: 20px;   
-    
 }
 
 .container {
-    /* background-color: white; */
     padding: 15px;
     margin-top: 15px;
-
 }
 
 .twitter-post {
@@ -93,12 +86,9 @@ body {
     border: 5px solid #ecf0f1;
     position: relative; }
 
-
-/* Responsivo */
-
 @media (max-width: 650px) {
     .row, .header {   
       flex-direction: column;
     }
-  } 
+} 
   

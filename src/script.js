@@ -18,19 +18,11 @@ send.addEventListener('click', twittar);
 
 function twittar() {
     let newTweet = document.createElement('li');
-    console.log(newTweet);
-
     let list = document.getElementById('list-post');
-    console.log('retorno list', list);
 
     newTweet.innerHTML = box.value;
-    console.log('o que printa na tela', newTweet);
-
     list.appendChild(newTweet);
-    console.log('isso aqui é pra add o nó')
-
     list.insertBefore(newTweet, list.firstChild);
-    console.log('ordem post', list);
     box.value = '';
 
 
@@ -49,7 +41,6 @@ box.addEventListener('input', charCount);
 
 function charCount() {
     let charDig = parseInt(box.value.length);
-    //  console.log(charDig);
     let charRest = charMax - charDig;
     count.innerHTML = charRest;
     changeCollor();

@@ -33,3 +33,7 @@ Neste desafio, vamos replicar o feed de notícias do Twitter.
 ### Versão 0.0.6 (Hacker edition)
 
 1.  Adicione a hora em que o tweet foi publicado no formato de 24 horas  `hh:mm`.
+
+### Resultado Final:
+
+![Print da tela do projeto de replica do feed do Twitter](src/assets.print.png)
