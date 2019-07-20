@@ -36,4 +36,4 @@ Neste desafio, vamos replicar o feed de notícias do Twitter.
 
 ### Resultado Final:
 
-![Print da tela do projeto de replica do feed do Twitter](src/assets.print.png)
+![Print da tela do projeto de replica do feed do Twitter](https://github.com/camebastos/twitter/blob/master/src/assets/print.png?raw=true)
